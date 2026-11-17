@@ -1,0 +1,14 @@
+
+{
+    "name": "demo/banque",
+    "description": "Exemple d'autochargement PSR-4",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Banque\\": "src/"
+        }
+    }
+}
